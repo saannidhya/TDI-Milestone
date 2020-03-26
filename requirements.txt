@@ -3,7 +3,7 @@ Flask-Compress==1.4.0
 Flask-Cors==3.0.3
 plotly==4.5.1
 pandas==1.0.0
-requests==2.18.4
+requests==2.20.0
 lxml==4.1.0
 beautifulsoup4==4.6.0
 autopep8==1.4.4
