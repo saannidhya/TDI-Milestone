@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Stock Price Application</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/market_photo.png" alt="Photo" class="logo">
+    </div>
+
+    <div id = "Intro">
+        <h1> Stock Price Application </h1>
+        <br/>
+        <p> Purpose: Display stock prices based on Ticker symbol.</p>
+    </div>
+
+        <form action="/submit" method="POST">
+            <div id = "Entry" class="form-group">
+                <label> Ticker symbol:
+                    <input type="text" name="ticker_entry" placeholder="Stock Ticker Symbol"/>
+                    <input type="submit" value="Submit" class="btn"/>
+                </label>
+            </div>
+        </form>
+
+</body>
+</html>
